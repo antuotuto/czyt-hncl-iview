@@ -1,0 +1,93 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed: SyntaxError: Unexpected token (1:0)
+  > 1 | <html lang="en-US">
+      | ^
+    2 | <head>
+    3 |     <meta charset="UTF-8">
+    4 |     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1  .0, user-scalable=0">
+  :
+  BabelLoaderError: SyntaxError: Unexpected token (1:0)
+  > 1 | <html lang="en-US">
+      | ^
+    2 | <head>
+    3 |     <meta charset="UTF-8">
+    4 |     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1  .0, user-scalable=0">
+  
+  - compiler.js:76 
+    [czyt-hncl-iview]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:296 Compiler.<anonymous>
+    [czyt-hncl-iview]/[webpack]/lib/Compiler.js:296:10
+  
+  - Compiler.js:499 
+    [czyt-hncl-iview]/[webpack]/lib/Compiler.js:499:13
+  
+  - Tapable.js:202 next
+    [czyt-hncl-iview]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:62 Compiler.<anonymous>
+    [czyt-hncl-iview]/[webpack]/lib/CachePlugin.js:62:5
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [czyt-hncl-iview]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:496 
+    [czyt-hncl-iview]/[webpack]/lib/Compiler.js:496:10
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [czyt-hncl-iview]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:649 self.applyPluginsAsync.err
+    [czyt-hncl-iview]/[webpack]/lib/Compilation.js:649:19
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [czyt-hncl-iview]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:640 self.applyPluginsAsync.err
+    [czyt-hncl-iview]/[webpack]/lib/Compilation.js:640:11
+  
+  - Tapable.js:202 next
+    [czyt-hncl-iview]/[tapable]/lib/Tapable.js:202:11
+  
+  - UglifyJsPlugin.js:230 Compilation.compilation.plugin
+    [czyt-hncl-iview]/[webpack]/lib/optimize/UglifyJsPlugin.js:230:5
+  
+  - Tapable.js:206 Compilation.applyPluginsAsyncSeries
+    [czyt-hncl-iview]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compilation.js:635 self.applyPluginsAsync.err
+    [czyt-hncl-iview]/[webpack]/lib/Compilation.js:635:10
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [czyt-hncl-iview]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:631 sealPart2
+    [czyt-hncl-iview]/[webpack]/lib/Compilation.js:631:9
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [czyt-hncl-iview]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:579 Compilation.seal
+    [czyt-hncl-iview]/[webpack]/lib/Compilation.js:579:8
+  
+  - Compiler.js:493 
+    [czyt-hncl-iview]/[webpack]/lib/Compiler.js:493:16
+  
+  - Tapable.js:289 
+    [czyt-hncl-iview]/[tapable]/lib/Tapable.js:289:11
+  
+  - Compilation.js:481 _addModuleChain
+    [czyt-hncl-iview]/[webpack]/lib/Compilation.js:481:11
+  
+  - Compilation.js:452 processModuleDependencies.err
+    [czyt-hncl-iview]/[webpack]/lib/Compilation.js:452:13
+  
+  - next_tick.js:95 _combinedTickCallback
+    internal/process/next_tick.js:95:7
+  
+  - next_tick.js:161 process._tickCallback
+    internal/process/next_tick.js:161:9
+  
+</pre>
